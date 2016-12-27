@@ -1,0 +1,163 @@
+.generic_form_container
+{
+}
+.generic_form_label, .generic_form_input, .generic_form_submit, .generic_form_remember
+{
+	font-family: Trebuchet MS;
+	font-size: 14px;
+}
+.generic_form_input
+{
+	margin-bottom: 10px;
+}
+.generic_form_label
+{
+	margin-top: 5px;
+}
+.generic_form_input .generic_form_textarea,
+.generic_form_input .generic_form_text,
+.generic_form_input .generic_form_text_narrow,
+.generic_form_input .generic_form_text_captcha
+{
+	color: #333;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	border: 1px solid #d4d4d4;
+}
+.generic_form_input .generic_form_text,
+.generic_form_input .generic_form_textarea
+{
+	width: 100%;
+}
+.generic_form_input .generic_form_text_narrow
+{
+	width: 300px;
+}
+.generic_form_input .generic_form_text_captcha
+{
+	width: 100px;
+}
+.generic_form_input .generic_form_text
+{
+	height: 20px;
+}
+.generic_form_remember
+{
+	margin-top: 8px;
+}
+.generic_form_text
+{
+	width: 100%;
+}
+.generic_form_remark
+{
+	margin-bottom: 5px;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	color: black;
+}
+.generic_form_title
+{
+	background-color: #e8f3f9;
+	padding: 10px;
+	color: #62676b;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.generic_form_submit
+{
+	margin-top: 20px;
+}
+.generic_form_submit input
+{
+	color: black;
+	/*background-color: #fbb15b;
+	padding: 3px;*/
+	cursor: pointer;
+	cursor: hand;
+}
+.generic_form_red_star
+{
+	color: #d60e0e;
+}
+.generic_form_separator
+{
+	height: 20px;
+	font-size: 0;
+	line-height: 0;
+}
+.generic_form_info
+{
+	margin: 15px 0 0 30px;
+	display: inline-block;
+	float: left;
+	width: 300px;
+}
+.generic_form_info_block
+{
+	margin-bottom: 30px;
+}
+.generic_form_info_link
+{
+	margin-bottom: 8px;
+}
+.generic_form_simple_input,
+.generic_location select
+{
+        background-color: #ffffff;
+        border: 1px solid #d4d4d4;
+        color: #333;
+}
+
+
+.reg_iform_label
+{
+ margin-top: 5px;
+ font-family: Trebuchet MS;
+ font-size: 14px;
+ color: #2F2F2F;
+}
+.reg_iform_input input[type="text"],
+.reg_iform_input input[type="file"],
+.reg_iform_input textarea,
+.reg_iform_input select
+{
+ border: 1px solid #D4D4D4;
+ color: #333333;
+ font-family: Trebuchet MS;
+ font-size: 14px; 
+}
+.reg_iform_input input[type="text"],
+.reg_iform_input textarea,
+.reg_iform_input select
+{
+ width: 300px;
+}
+.reg_iform_input input[appearance="datetime"],
+.reg_iform_input input[name="PROPERTY_PASS_SEREIS"],
+.reg_iform_input input[name="PROPERTY_PASS_SEREIS"]
+{
+ width: 150px;
+}
+
+.request_form_success,
+.request_form_fail
+{
+ padding: 5px 0 0 40px;
+ background-repeat: no-repeat;
+ font-size: 15px;
+ margin-bottom: 20px;
+ min-height: 32px;
+}
+.request_form_success
+{
+ background-image: url(img/form_success.png);
+}
+.request_form_fail
+{
+ background-image: url(img/form_error.png);
+}
+.generic_form_container .request_form_error
+{
+ border: 1px solid red !important;
+}
